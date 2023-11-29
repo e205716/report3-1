@@ -3,8 +3,9 @@ package jp.ac.uryukyu.ie.e205716;
 public class LivingThing {
     private String name;
     private int hitPoint;
-    private int attack;
+    protected int attack;
     private boolean dead;
+
 
     public LivingThing(String name, int maximumHP, int attack) {
         this.name = name;
